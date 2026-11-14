@@ -5,7 +5,7 @@ import pandas as pd
 import joblib
 
 # Load our trained machine learning pipeline
-model = joblib.load("purchase_intent_model.pkl")
+model = joblib.load("purchase_intent_model_compressed.pkl")
 
 # Configure the website page
 st.set_page_config(
